@@ -1,0 +1,18 @@
+.main-content{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.versions{
+	position: absolute;
+	bottom: 2%;
+	left: 2%;
+}
+
+.email{
+	position: absolute;
+	bottom: 2%;
+	right: 2%;
+}
