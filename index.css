@@ -1,18 +1,21 @@
-.main-content{
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+body {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 80vw;
 }
 
-.versions{
-	position: absolute;
-	bottom: 2%;
-	left: 2%;
+.main-content {
+	margin-top: 50px;
 }
 
-.email{
-	position: absolute;
-	bottom: 2%;
-	right: 2%;
+footer {
+	display: flex;
+	justify-content: space-between;
+	justify-self: end;
+	padding: 20px;
+	width: 80%;
 }
