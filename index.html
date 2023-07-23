@@ -2,76 +2,93 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	
+	<script crossorigin="anonymous" src="https://kit.fontawesome.com/69e7ba6669.js"></script>
+	
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+	
+	<link href="style/index.css" rel="stylesheet">
+	<link href="style/mobile.css" media="only screen and (max-width: 30em)" rel="stylesheet">
+	
 	<title>简历</title>
-	<link href="index.css" rel="stylesheet">
 </head>
 <body>
-<div class="main-content">
-	<div class="summary">
-		<h2>简介</h2>
-		<ul>
-			<li>
-				熟悉HTML/CSS
-			</li>
-			<li>
-				了解JavaScript
-			</li>
-			<li>
-				写代码比较有条理
-			</li>
-		</ul>
+
+<header>
+	<div class="container ">
+		<h1>
+			简历版本: 0.2.5
+			<sub>更新时间: 2023年7月24日</sub>
+		</h1>
+		<img alt="my avatar" src="https://www.gravatar.com/avatar/84105436603eb928aa8d7c90affa1dc6?s=600"
+		     srcset="img/my-avatar.jpg"
+		>
 	</div>
-	<div class="demo-project-container">
-		<h2>demo项目</h2>
-		<ul>
-			<li>
-				<a href="https://hzau-kuo-jiang.github.io/shopping-list-project-again/" rel="noopener noreferrer"
-				   target="_blank">
-					shopping-list-project
-				</a>
-			</li>
-			<li>
-				<a href="https://hzau-kuo-jiang.github.io/modern_html_css_follow/l07/" rel="noopener noreferrer"
-				   target="_blank">
-					edgeledger-website
-				</a>
-			</li>
-			<li>
-				<a href="https://hzau-kuo-jiang.github.io/modern_html_css_follow/l10/hamburger_overlay_menu/"
-				   rel="noopener noreferrer"
-				   target="_blank">
-					hamburger_overlay_menu
-				</a>
-			</li>
-			<li>
-				<a href="https://hzau-kuo-jiang.github.io/modern_html_css_follow/l10/knowledge_resume/"
-				   rel="noopener noreferrer"
-				   target="_blank">
-					knowledge_resume
-				</a>
-			</li>
-		</ul>
+</header>
+
+
+<main>
+	<div class="container ">
+		<section>
+			<h2>能力简介</h2>
+			<ul>
+				<li>
+					熟悉HTML/CSS
+				</li>
+				<li>
+					了解JavaScript
+				</li>
+			</ul>
+		</section>
+		<section>
+			<h2>demo项目</h2>
+			<ul>
+				<li>
+					<a href="https://hzau-kuo-jiang.github.io/shopping-list-project-again/" rel="noopener noreferrer"
+					   target="_blank">
+						shopping-list-project
+						<sub>( javascript的简单应用 )</sub>
+					</a>
+				</li>
+				<li>
+					<a href="https://hzau-kuo-jiang.github.io/modern_html_css_follow/l12/" rel="noopener noreferrer"
+					   target="_blank">
+						news-grid
+						<sub>( 响应式布局 )</sub>
+					</a>
+				</li>
+				<li>
+					<a href="https://hzau-kuo-jiang.github.io/modern_html_css_follow/l10/hamburger_overlay_menu/"
+					   rel="noopener noreferrer"
+					   target="_blank">
+						hamburger-overlay-menu
+						<sub>( 动画效果 )</sub>
+					</a>
+				</li>
+			</ul>
+		</section>
 	</div>
-</div>
+</main>
+
 
 <footer>
-	<div class="versions">
-		<p>简历版本: 0.2.3</p>
-		<p>更新时间: 2023年7月21日</p>
-	</div>
-	<div class="email">
-		<ul>
-			<li>
-				GitHub: <a href="https://github.com/hzau-kuo-jiang" rel="noopener noreferrer" target="_blank">hzau-kuo-jiang</a>
-			</li>
-			<li>
-				微信: HZAU-KJ
-			</li>
-			<li>
-				邮箱: 1850402105@qq.com
-			</li>
-		</ul>
-	</div>
+	<ul class="container">
+		<li>
+			<i class="fa-brands fa-github"></i>
+			<a href="https://github.com/hzau-kuo-jiang" rel="noopener noreferrer" target="_blank">hzau-kuo-jiang</a>
+		</li>
+		<li>
+			<i class="fa-brands fa-weixin"></i>
+			HZAU-KJ
+		</li>
+		<li>
+			<i class="fa-brands fa-qq"></i>
+			<a href="mailto:1850402105@qq.com" rel="noopener noreferrer" target="_blank">1850402105@qq.com</a>
+		</li>
+	</ul>
 </footer>
 
 </body>
